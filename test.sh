@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#Simulate Normal Traffic
 while true; do
 	packet=$(shuf -i 10-20 -n 1)
 	bytes=$(shuf -i 150-200 -n 1)
